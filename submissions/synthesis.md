@@ -1,6 +1,6 @@
 # Proof Harbor Cloud
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Filecoin
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Filecoin
 - **Primary track:** Filecoin Agentic Storage
 - **Overlap targets:** Octant, YieldGuard, Venice Private Agents, ERC-8004 Receipts, OpenServ, Markee
 - **Primary contract:** ProofHarborRegistry
