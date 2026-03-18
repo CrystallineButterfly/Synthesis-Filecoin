@@ -1,20 +1,18 @@
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
 import {Script} from "forge-std/Script.sol";
-import {console2} from "forge-std/console2.sol";
+import {ProofHarborRegistry} from "src/ProofHarborRegistry.sol";
 
-import { ProofHarborRegistry } from "src/ProofHarborRegistry.sol";
-
-contract Deploy is Script {
+contract DeployScript is Script {
     function run() external returns (ProofHarborRegistry deployed) {
         address admin = vm.envAddress("ADMIN_WALLET_ADDRESS");
         address operator = vm.envAddress("OPERATOR_WALLET_ADDRESS");
-
+        address reporter = vm.envAddress("REPORTER_WALLET_ADDRESS");
+        uint256 principalFloor = vm.envUint("INITIAL_PRINCIPAL_FLOOR");
         vm.startBroadcast();
-        deployed = new ProofHarborRegistry(admin, operator);
+        deployed = new ProofHarborRegistry(admin, operator, reporter, principalFloor);
         vm.stopBroadcast();
-
-        console2.log("Deployed ProofHarborRegistry at", address(deployed));
     }
 }
