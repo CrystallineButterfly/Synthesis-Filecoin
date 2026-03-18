@@ -9,7 +9,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -39,25 +39,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x4d9b7058cb0df49605f08e40e36b1d9975ae414e1078b02337b6a3fa033be3bb"
+      "plan_id": "0xcb039a2b93b5a6f5707eaf18b113366ee1bad5e9a722df6b35085b540d9ace29"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0x90874016908f9b624beb00c00c83ebb8574d0e6b08aac619fa45259662095fa3"
+      "simulation_hash": "0x9434e526a674deeaa73f68b7d0977e073041d9186c66ca9fcc04b4da9759f88d"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -86,15 +86,15 @@
       "status": "verified",
       "project_name": "Proof Harbor Cloud",
       "track": "Filecoin Agentic Storage",
-      "plan_id": "0x4d9b7058cb0df49605f08e40e36b1d9975ae414e1078b02337b6a3fa033be3bb",
-      "simulation_hash": "0x90874016908f9b624beb00c00c83ebb8574d0e6b08aac619fa45259662095fa3",
+      "plan_id": "0xcb039a2b93b5a6f5707eaf18b113366ee1bad5e9a722df6b35085b540d9ace29",
+      "simulation_hash": "0x9434e526a674deeaa73f68b7d0977e073041d9186c66ca9fcc04b4da9759f88d",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:44:00+00:00"
+      "created_at": "2026-03-18T23:01:13+00:00"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -124,25 +124,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x4d9b7058cb0df49605f08e40e36b1d9975ae414e1078b02337b6a3fa033be3bb"
+      "plan_id": "0xcb039a2b93b5a6f5707eaf18b113366ee1bad5e9a722df6b35085b540d9ace29"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0x90874016908f9b624beb00c00c83ebb8574d0e6b08aac619fa45259662095fa3"
+      "simulation_hash": "0x9434e526a674deeaa73f68b7d0977e073041d9186c66ca9fcc04b4da9759f88d"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -163,7 +163,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:00+00:00",
+    "timestamp": "2026-03-18T23:01:13+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -171,11 +171,11 @@
       "status": "verified",
       "project_name": "Proof Harbor Cloud",
       "track": "Filecoin Agentic Storage",
-      "plan_id": "0x4d9b7058cb0df49605f08e40e36b1d9975ae414e1078b02337b6a3fa033be3bb",
-      "simulation_hash": "0x90874016908f9b624beb00c00c83ebb8574d0e6b08aac619fa45259662095fa3",
+      "plan_id": "0xcb039a2b93b5a6f5707eaf18b113366ee1bad5e9a722df6b35085b540d9ace29",
+      "simulation_hash": "0x9434e526a674deeaa73f68b7d0977e073041d9186c66ca9fcc04b4da9759f88d",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:44:00+00:00"
+      "created_at": "2026-03-18T23:01:13+00:00"
     }
   }
 ]
