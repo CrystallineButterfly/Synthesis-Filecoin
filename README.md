@@ -5,7 +5,7 @@
 - **Category:** storage
 - **Primary contract:** `ProofHarborRegistry`
 - **Primary module:** `filecoin_proofs`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,30 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:12+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Filecoin (prepared_filecoin_bundle), ERC-8004 Receipts (prepared_contract_call)
+- **Live credential blockers:** Octant, Venice, OpenServ, Markee
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `venice_private_analysis` (Venice, high)
+
+## Live blocker details
+
+- **Octant** — OCTANT_SIGNAL_URL — https://octant.app/
+- **Venice** — VENICE_API_KEY, VENICE_CHAT_COMPLETIONS_URL, VENICE_MODEL — https://docs.venice.ai/
+- **OpenServ** — OPENSERV_API_KEY, OPENSERV_AGENT_URL — https://docs.openserv.ai/
+- **Markee** — MARKEE_API_KEY, MARKEE_MESSAGE_URL — https://markee.xyz/
+
+## Latest evidence artifacts
+
+- `artifacts/filecoin/0x7a5284423a461ff4f86b163b71047497e68b6b4a5dad28b33168a36f5b1c15d9.json`
+- `artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json`
 
 ## Security controls
 

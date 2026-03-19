@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `ProofHarborRegistry`
+- live-only partners: Octant, Venice, OpenServ, Markee
+- offline-prepared partners: Filecoin (prepared_filecoin_bundle), ERC-8004 Receipts (prepared_contract_call)
+- highest-sensitivity actions: venice_private_analysis
+- latest verification artifact: `artifacts/verification/0x7a5284423a461ff4f86b163b71047497e68b6b4a5dad28b33168a36f5b1c15d9.json`
+
 ## Current posture
 
 ### Good
